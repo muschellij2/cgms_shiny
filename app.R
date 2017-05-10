@@ -31,8 +31,8 @@ ui <- dashboardPage(
         fileInput(inputId = "infile", label = "Input File"),
         selectInput("device", "Which Device:", 
                     choices = c("Abbott", "Dexcom")),
+        box(plotlyOutput("plot1"), width = NULL),
         dataTableOutput("dtab"),
-        box(plotlyOutput("plot1"), width = NULL)
       )
     ))
 )
