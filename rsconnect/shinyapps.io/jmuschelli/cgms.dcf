@@ -3,8 +3,9 @@ title: cgms
 account: jmuschelli
 server: shinyapps.io
 appId: 179532
-bundleId: 822493
+bundleId: 822530
 url: https://jmuschelli.shinyapps.io/cgms/
-when: 1494427571.99328
+when: 1494428444.97687
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: abbott.txt|dexcom.txt
